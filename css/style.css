@@ -1,0 +1,20 @@
+.darkBlue {
+    background-color: #353a40;
+}
+
+footer {
+    background: rgb(28,54,67);
+background: linear-gradient(107deg, rgba(28,54,67,1) 0%, rgba(30,83,114,1) 100%);
+}
+
+header img{
+    width: 100px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+footer li {
+    list-style-type: none;
+}
