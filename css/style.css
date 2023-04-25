@@ -2,9 +2,18 @@
     background-color: #353a40;
 }
 
+.uppercase {
+    text-transform: uppercase;
+}
+
+span {
+    font-size: 2rem;
+}
+
 footer {
     background: rgb(28,54,67);
 background: linear-gradient(107deg, rgba(28,54,67,1) 0%, rgba(30,83,114,1) 100%);
+    height: 150px;
 }
 
 header img{
