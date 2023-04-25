@@ -20,6 +20,27 @@ header img{
     width: 100px;
 }
 
+.img_cover {
+    position: relative;
+}
+
+.hero {
+    position: absolute;
+    bottom: 0;
+}
+
+.justify-text-right {
+    text-align: right;
+}
+
+.btn:active {
+  color: black;
+}
+
+.w-800 {
+    max-width: 800px;
+}
+
 footer a {
     text-decoration: none;
     color: white;

@@ -44,24 +44,27 @@
         </nav>
     </header>
 
-    <div class="">
-        <img class="w-100" src="./img/hawaii.jpg" alt="">
-        <h1>Conf Bs As</h1>
-        <p>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conoimiento y
-            experiencia de los expertos que están creando el futuro de Internet. Vven a conocer a miembros del evento, a
-            otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
-        <button>Quiero ser orador</button>
-        <button id="tickets">Comprar tickets</button>
+    <div id="image_background" class="position-relative bg-dark">
+        <img class="w-100 opacity-50 " src="./img/hawaii.jpg" alt="">
+        <div class="p-5 text-white position-absolute top-0 start-50 justify-text-right">
+            <h1>Conf Bs As</h1>
+            <p>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conoimiento y
+                experiencia de los expertos que están creando el futuro de Internet. Vven a conocer a miembros del
+                evento, a
+                otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+            <button type="button" class="btn btn-outline-light">Quiero ser orador</button>
+            <button type="button" class="btn btn-success">Comprar tickets</button>
+        </div>
     </div>
-    <main class="container">
+    <main class="container p-3">
         <p class="text-center uppercase">Conoce a los <br><span>oradores</span></p>
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
                 <div class="card">
                     <img src="./img/steve.jpg" class="card-img-top" alt="steve_jobs">
                     <div class="card-body">
-                        <button>Negocios</button>
-                        <button>Startups</button>
+                        <button type="button" class="btn btn-warning btn-sm">JavaScript</button>
+                        <button type="button" class="btn btn-info btn-sm">React</button>
                         <h5 class="card-title">Steve Jobs</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe,
                             consequatur. Incidunt tenetur pariatur voluptas? Hic.</p>
@@ -72,8 +75,8 @@
                 <div class="card">
                     <img src="./img/bill.jpg" class="card-img-top" alt="bill_gates">
                     <div class="card-body">
-                        <button>Negocios</button>
-                        <button>Startups</button>
+                        <button type="button" class="btn btn-warning btn-sm">JavaScript</button>
+                        <button type="button" class="btn btn-info btn-sm">React</button>
                         <h5 class="card-title">Bill Gates</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe,
                             consequatur. Incidunt tenetur pariatur voluptas? Hic.</p>
@@ -84,8 +87,8 @@
                 <div class="card">
                     <img src="./img/ada.jpeg" class="card-img-top" alt="ada_lovelace">
                     <div class="card-body">
-                        <button>Negocios</button>
-                        <button>Startups</button>
+                        <button type="button" class="btn btn-secondary btn-sm">Negocios</button>
+                        <button type="button" class="btn btn-danger btn-sm">Startups</button>
                         <h5 class="card-title">Ada Lovelace</h5>
                         <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut officia et
                             impedit aspernatur voluptatum quis.</p>
@@ -96,26 +99,27 @@
     </main>
     <div class="w-100">
         <div class="row row-cols-2">
-            <img class="" src="./img/honolulu.jpg" alt="honolulu">
-            <div class="darkBlue text-white p-1">
+            <img class="p-0" src="./img/honolulu.jpg" alt="honolulu">
+            <div class="darkBlue text-white p-4">
                 <h2>Bs As - Octubre</h2>
                 <p>Buenos Aires es la provinccia y localidad más grande del estado de Argentina. En los Estados Unidos,
                     honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de
                     Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de
                     Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600 km
                     de superficie).</p>
-                <button>Conocé más</button>
+                <button type="button" class="btn btn-outline-light">Conocé más</button>
             </div>
         </div>
     </div>
-    <div class="container formulario_div">
+    <div class="container w-800 formulario_div p-3">
         <p class="text-center uppercase">Conviértete en un <br><span>orador</span></p>
-        <p class="text-center">Anótate como orador para dar una <a href="#"> charla ignite</a></a>. Cuéntanos de qué quiers hablar!</p>
+        <p class="text-center">Anótate como orador para dar una <a href="#"> charla ignite</a></a>. Cuéntanos de qué
+            quiers hablar!</p>
         <form action="" class="row row-cols-2">
-            <input type="text" placeholder="Nombre" class="row-6">
-            <input type="text" placeholder="Apellido" class="row-6">
+            <input type="text" placeholder="Nombre" class="row-sm-6">
+            <input type="text" placeholder="Apellido" class="row-sm-6">
             <textarea name="" id="" class="col-12" placeholder="¿Sobre qué quieres hablar?"></textarea>
-            <p class="col-12 text-center">Recuerda incluir un título para tu charla</p>
+            <p class="col-12 text-center text-muted">Recuerda incluir un título para tu charla</p>
             <button class="btn btn-primary col-12" type="button">Enviar</button>
         </form>
     </div>
