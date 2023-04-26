@@ -21,3 +21,21 @@ footer {
     height: fit-content;
 }
 .navbar__img {    width: 100px;}
+/* Medidas */
+.object-fit-cover {    object-fit: cover;}
+.h-600 {    min-height: 600px;}
+.w-900 {    max-width: 900px;}
+.w-50px {    width: 120px!important;}
+/* Posiciones */
+.bottom-25 {
+    bottom: 25%;
+}
+.me-5 {
+    margin-right: 150px!important;
+}
+.start-50 {
+    left: 30%!important;
+}
+.w-50 {
+    width: 60%!important;
+}

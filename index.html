@@ -14,7 +14,7 @@
 <body>
 
     <header class="bg-primary sticky-top container-fluid">
-        <nav class=" navbar navbar-expand-lg w-100">
+        <nav class="navbar navbar-expand-lg w-100">
             <div class="container-fluid">
                 <a class="navbar-brand text-white" href="#">
                     <img class="navbar__img" src="./img/codoacodo.webp" alt="logo_codo_a_codo">
@@ -76,13 +76,12 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
-        <div class="position-absolute top-0 start-50 text-end p-4 w-50 carousel-caption d-md-block ">
-            <h5 class="d-none d-md-block">Conf Bs As</h5>
-            <p class="d-none d-md-block text-right">Bs As llega por primera vez a Argentina. Un evento para compartir
-                con nuestra
-                comunidad el conoimiento y experiencia de los expertos que están creando el futuro de Internet. Vven a
-                conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que
-                tenemos para ti. Te esperamos!</p>
+        <div class="position-absolute bottom-25 start-50 text-end p-4 w-50 carousel-caption d-md-block ">
+            <h5 class="d-none d-md-block fs-2">Conf Bs As</h5>
+            <p class="d-none d-md-block text-right">Bs As llega por primera vez a Argentina. Un evento para
+                compartir con nuestra comunidad el conoimiento y experiencia de los expertos que están creando el futuro
+                de Internet. Viven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de
+                primer nivel que tenemos para ti. Te esperamos!</p>
             <button type="button" class="btn btn-outline-light">Quiero ser orador</button>
             <button type="button" class="btn btn-success">Comprar tickets</button>
         </div>
@@ -131,8 +130,8 @@
 
     <div id="lugar" class="w-100">
         <div class="row row-cols-sm-2">
-            <img class="p-0" src="./img/honolulu.webp" alt="honolulu">
-            <div class="bg-primary text-white p-3">
+            <img class="p-0 object-fit-cover" src="./img/honolulu.webp" alt="honolulu">
+            <div class="bg-primary text-white p-3 h-600">
                 <h2>Bs As - Octubre</h2>
                 <p>Buenos Aires es la provinccia y localidad más grande del estado de Argentina. En los Estados Unidos,
                     honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de
@@ -144,7 +143,7 @@
         </div>
     </div>
 
-    <div id="formulario" class="container w-sm-50 p-5">
+    <div id="formulario" class="container w-sm-50 p-2 w-900">
         <p class="text-center text-uppercase">Conviértete en un <br><span class="fs-1">orador</span></p>
         <p class="text-center">Anótate como orador para dar una <a
                 href="https://www.yoscoaching.com/blog/que-es-la-presentacion-ignite-y-como-se-hace-guia-de-5-pasos-para-crear-la-tuya/"
@@ -158,22 +157,26 @@
                 <input type="text" class="form-control" id="apellido" placeholder="Apellido">
             </div>
             <div class="mb-3">
-                <textarea class="form-control" placeholder="Sobre qué quieres hablar?" id="floatingTextarea"></textarea>
-              </div>
-            <div id="nombre" class="form-text">Recuerda incluir un título para tu charla.</div>
-            <button class="btn btn-green col-12 text-white" type="button">Enviar</button>
+                <textarea style="height: 150px;" class="form-control" placeholder="Sobre qué quieres hablar?"
+                    id="floatingTextarea"></textarea>
+                <div id="nombre" class="form-text">Recuerda incluir un título para tu charla.</div>
+            </div>
+            <div class="mb-3">
+                <button class="btn btn-green col-sm-12 text-white" type="button">Enviar</button>
+            </div>
         </form>
     </div>
     <footer class="align-items-center d-flex justify-content-center p-5">
 
-        <ul class="d-flex justify-content-center flex-wrap gap-3 text-white m-0 p-0 list-unstyled">
-            <li class="nav-item"><a class="nav-link text-white" href="#">Preguntas frecuentes</a></li>
-            <li><a class="nav-link text-white" href="#">Contáctanos</a></li>
-            <li><a class="nav-link text-white" href="#">Prensa</a></li>
-            <li><a class="nav-link text-white" href="#">Conferencias</a></li>
-            <li><a class="nav-link text-white" href="#">Términos y condiciones</a></li>
-            <li><a class="nav-link text-white" href="#">Privacidad</a></li>
-            <li><a class="nav-link text-white" href="#">Estudiantes</a></li>
+        <ul
+            class="d-flex justify-content-center align-items-center text-center flex-wrap flex-m-column gap-5 text-white m-0 p-0 list-unstyled ">
+            <li class="nav-item"><a class="nav-link text-white w-50px" href="#">Preguntas frecuentes</a></li>
+            <li><a class="nav-link text-white w-50px" href="#">Contáctanos</a></li>
+            <li><a class="nav-link text-white w-50px" href="#">Prensa</a></li>
+            <li><a class="nav-link text-white w-50px" href="#">Conferencias</a></li>
+            <li><a class="nav-link text-white w-50px" href="#">Términos y condiciones</a></li>
+            <li><a class="nav-link text-white w-50px" href="#">Privacidad</a></li>
+            <li><a class="nav-link text-white w-50px" href="#">Estudiantes</a></li>
         </ul>
     </footer>
 
