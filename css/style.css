@@ -7,59 +7,21 @@
 ::-webkit-scrollbar { 
     display: none;  /* Safari and Chrome */
 }
-
-.darkBlue {
-    background-color: var(--darkBlue);
-}
-
-.text-success{
-    color:var(--green)!important;
-}
-.btn-success{
-    background-color: var(--green);
-}
-.btn-green{
-    background-color: var(--formButton);
-}
-.btn-green:hover{
-    background-color: var(--green);
-}
-
-.uppercase {
-    text-transform: uppercase;
-}
-
-span {
-    font-size: 2rem;
-}
-
+/* Colores modificados */
+.darkBlue {    background-color: var(--darkBlue);}
+.text-success{    color:var(--green)!important;}
+.btn-success{    background-color: var(--green);}
+.btn-green{    background-color: var(--formButton);}
+.btn-green:hover{    background-color: var(--green);}
+/* Generales */
+.uppercase {    text-transform: uppercase;}
+span {    font-size: 2rem;}
 footer {
     background: rgb(28, 54, 67);
     background: linear-gradient(107deg, rgba(28, 54, 67, 1) 0%, rgba(30, 83, 114, 1) 100%);
     height: fit-content;
 }
-
-header img {
-    width: 100px;
-}
-
+.navbar__img {    width: 100px;}
 .justify-text-right {
     text-align: right;
-}
-
-.btn:active {
-    color: black;
-}
-
-.w-800 {
-    max-width: 800px;
-}
-
-footer a {
-    text-decoration: none;
-    color: white;
-}
-
-footer li {
-    list-style-type: none;
 }
