@@ -19,7 +19,7 @@
                 <a class="navbar-brand text-white" href="#">
                     <img class="navbar__img" src="./img/codoacodo.webp" alt="logo_codo_a_codo">
                     Conf Bs As</a>
-                <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -35,7 +35,7 @@
                             <a class="nav-link text-muted" href="#lugar">El lugar y la fecha</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-muted" href="#conviertete">Conviértete en orador</a>
+                            <a class="nav-link text-muted" href="#formulario">Conviértete en orador</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-success" href="#">Comprar tickets</a>
@@ -144,18 +144,24 @@
         </div>
     </div>
 
-    <div id="conviertete" class="container w-sm-50 p-5">
+    <div id="formulario" class="container w-sm-50 p-5">
         <p class="text-center text-uppercase">Conviértete en un <br><span class="fs-1">orador</span></p>
         <p class="text-center">Anótate como orador para dar una <a
                 href="https://www.yoscoaching.com/blog/que-es-la-presentacion-ignite-y-como-se-hace-guia-de-5-pasos-para-crear-la-tuya/"
                 target="_blank" class="text-dark"> charla ignite</a></a>. Cuéntanos de qué
             quieres hablar!</p>
-        <form action="" class="row">
-            <input type="text" placeholder="Nombre" class="col-sm-6">
-            <input type="text" placeholder="Apellido" class="col-sm-6">
-            <textarea name="" id="" class="col-12" placeholder="¿Sobre qué quieres hablar?"></textarea>
-            <p class="col-12 text-center text-muted">Recuerda incluir un título para tu charla</p>
-            <button class="btn btn-green col-12" type="button">Enviar</button>
+        <form class="row align-items-center">
+            <div class="mb-3 col-sm-6">
+                <input type="text" class="form-control" id="nombre" aria-describedby="nombre" placeholder="Nombre">
+            </div>
+            <div class="mb-3 col-sm-6">
+                <input type="text" class="form-control" id="apellido" placeholder="Apellido">
+            </div>
+            <div class="mb-3">
+                <textarea class="form-control" placeholder="Sobre qué quieres hablar?" id="floatingTextarea"></textarea>
+              </div>
+            <div id="nombre" class="form-text">Recuerda incluir un título para tu charla.</div>
+            <button class="btn btn-green col-12 text-white" type="button">Enviar</button>
         </form>
     </div>
     <footer class="align-items-center d-flex justify-content-center p-5">
