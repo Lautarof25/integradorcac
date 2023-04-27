@@ -4,38 +4,92 @@
     --lightBlue: #1e5372;
     --formButton: #96c93e;
 }
-::-webkit-scrollbar { 
-    display: none;  /* Safari and Chrome */
+
+::-webkit-scrollbar {
+    display: none;
+    /* Safari and Chrome */
 }
-html {    scroll-padding: 70px 0 0 0;}
+
+html {
+    scroll-padding: 70px 0 0 0;
+}
+
 /* Colores modificados */
-.bg-primary {    background-color: var(--darkBlue)!important;}
-.text-success{    color:var(--green)!important;}
-.btn-success{    background-color: var(--green);}
-.btn-green{    background-color: var(--formButton);}
-.btn-green:hover{    background-color: var(--green);}
+.bg-primary {
+    background-color: var(--darkBlue) !important;
+}
+
+.text-success {
+    color: var(--green) !important;
+}
+
+.btn-success {
+    background-color: var(--green);
+}
+
+.btn-green {
+    background-color: var(--formButton);
+}
+
+.btn-green:hover {
+    background-color: var(--green);
+}
+
 /* Generales */
 footer {
     background: rgb(28, 54, 67);
     background: linear-gradient(100deg, var(--darkBlue) 0%, var(--lightBlue) 100%);
     height: fit-content;
 }
-.navbar__img {    width: 100px;}
+
+.navbar__img {
+    width: 100px;
+}
+
 /* Medidas */
-.object-fit-cover {    object-fit: cover;}
-.h-600 {    min-height: 600px;}
-.w-900 {    max-width: 900px;}
-.w-50px {    width: 120px!important;}
+.object-fit-cover {
+    object-fit: cover;
+}
+
+.h-600 {
+    min-height: 600px;
+}
+
+.w-900 {
+    max-width: 900px;
+}
+
+.w-50px {
+    width: 120px !important;
+}
+
 /* Posiciones */
 .bottom-25 {
     bottom: 25%;
 }
+
 .me-5 {
-    margin-right: 150px!important;
+    margin-right: 150px !important;
 }
+
 .start-50 {
-    left: 30%!important;
+    left: 30% !important;
 }
+
 .w-50 {
-    width: 60%!important;
+    width: 60% !important;
+}
+
+@media (max-width: 450px) {
+    .hero__text {
+        padding: 0 !important;
+        width: 80% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        left: 0!important;
+        bottom: 50px!important;
+        margin: 0 auto;
+    }
 }
