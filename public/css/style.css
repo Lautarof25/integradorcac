@@ -51,10 +51,6 @@ footer {
     object-fit: cover;
 }
 
-.h-600 {
-    min-height: 600px;
-}
-
 .w-900 {
     max-width: 900px;
 }
@@ -63,7 +59,11 @@ footer {
     width: 120px !important;
 }
 
-/* Posiciones */
+.container-xxl {
+    max-width: 1440px!important;
+}
+
+/* Posiciones hero */
 .bottom-25 {
     bottom: 25%;
 }
@@ -79,17 +79,8 @@ footer {
 .w-50 {
     width: 60% !important;
 }
-
-@media (max-width: 450px) {
-    .hero__text {
-        padding: 0 !important;
-        width: 80% !important;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        left: 0!important;
-        bottom: 50px!important;
-        margin: 0 auto;
+@media (max-width: 540px) { 
+    .gap-5{
+        gap: 1rem!important;
     }
 }
